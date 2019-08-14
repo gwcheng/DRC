@@ -3,9 +3,6 @@ var Html5Video = function() {};
 
 Html5Video.prototype._videos = {};
 Html5Video.prototype._callbacks = {};
-
-
-
 /*
  * videos - a map between html video tag ids and the file name of the video
  * they play. In addition, file names must be all lowercase, with only
